@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF56E2382AB15EC500DDF1EB /* watchos-hello-world Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CF56E2372AB15EC500DDF1EB /* watchos-hello-world Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CF56E23D2AB15EC500DDF1EB /* watchos_hello_worldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF56E23C2AB15EC500DDF1EB /* watchos_hello_worldApp.swift */; };
+		CF56E23F2AB15EC500DDF1EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF56E23E2AB15EC500DDF1EB /* ContentView.swift */; };
+		CF56E2412AB15EC700DDF1EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF56E2402AB15EC700DDF1EB /* Assets.xcassets */; };
+		CF56E2442AB15EC700DDF1EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF56E2432AB15EC700DDF1EB /* Preview Assets.xcassets */; };
+		CF56E24E2AB15EC700DDF1EB /* watchos_hello_world_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF56E24D2AB15EC700DDF1EB /* watchos_hello_world_Watch_AppTests.swift */; };
+		CF56E2582AB15EC700DDF1EB /* watchos_hello_world_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF56E2572AB15EC700DDF1EB /* watchos_hello_world_Watch_AppUITests.swift */; };
+		CF56E25A2AB15EC700DDF1EB /* watchos_hello_world_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF56E2592AB15EC700DDF1EB /* watchos_hello_world_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF56E2392AB15EC500DDF1EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF56E22B2AB15EC500DDF1EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF56E2362AB15EC500DDF1EB;
+			remoteInfo = "watchos-hello-world Watch App";
+		};
+		CF56E24A2AB15EC700DDF1EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF56E22B2AB15EC500DDF1EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF56E2362AB15EC500DDF1EB;
+			remoteInfo = "watchos-hello-world Watch App";
+		};
+		CF56E2542AB15EC700DDF1EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF56E22B2AB15EC500DDF1EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF56E2362AB15EC500DDF1EB;
+			remoteInfo = "watchos-hello-world Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF56E2602AB15EC700DDF1EB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CF56E2382AB15EC500DDF1EB /* watchos-hello-world Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CF56E2312AB15EC500DDF1EB /* watchos-hello-world.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchos-hello-world.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF56E2372AB15EC500DDF1EB /* watchos-hello-world Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchos-hello-world Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF56E23C2AB15EC500DDF1EB /* watchos_hello_worldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchos_hello_worldApp.swift; sourceTree = "<group>"; };
+		CF56E23E2AB15EC500DDF1EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF56E2402AB15EC700DDF1EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF56E2432AB15EC700DDF1EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF56E2492AB15EC700DDF1EB /* watchos-hello-world Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "watchos-hello-world Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF56E24D2AB15EC700DDF1EB /* watchos_hello_world_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchos_hello_world_Watch_AppTests.swift; sourceTree = "<group>"; };
+		CF56E2532AB15EC700DDF1EB /* watchos-hello-world Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "watchos-hello-world Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF56E2572AB15EC700DDF1EB /* watchos_hello_world_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchos_hello_world_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		CF56E2592AB15EC700DDF1EB /* watchos_hello_world_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchos_hello_world_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF56E2342AB15EC500DDF1EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF56E2462AB15EC700DDF1EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF56E2502AB15EC700DDF1EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF56E22A2AB15EC500DDF1EB = {
+			isa = PBXGroup;
+			children = (
+				CF56E23B2AB15EC500DDF1EB /* watchos-hello-world Watch App */,
+				CF56E24C2AB15EC700DDF1EB /* watchos-hello-world Watch AppTests */,
+				CF56E2562AB15EC700DDF1EB /* watchos-hello-world Watch AppUITests */,
+				CF56E2322AB15EC500DDF1EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF56E2322AB15EC500DDF1EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF56E2312AB15EC500DDF1EB /* watchos-hello-world.app */,
+				CF56E2372AB15EC500DDF1EB /* watchos-hello-world Watch App.app */,
+				CF56E2492AB15EC700DDF1EB /* watchos-hello-world Watch AppTests.xctest */,
+				CF56E2532AB15EC700DDF1EB /* watchos-hello-world Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF56E23B2AB15EC500DDF1EB /* watchos-hello-world Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				CF56E23C2AB15EC500DDF1EB /* watchos_hello_worldApp.swift */,
+				CF56E23E2AB15EC500DDF1EB /* ContentView.swift */,
+				CF56E2402AB15EC700DDF1EB /* Assets.xcassets */,
+				CF56E2422AB15EC700DDF1EB /* Preview Content */,
+			);
+			path = "watchos-hello-world Watch App";
+			sourceTree = "<group>";
+		};
+		CF56E2422AB15EC700DDF1EB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF56E2432AB15EC700DDF1EB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF56E24C2AB15EC700DDF1EB /* watchos-hello-world Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF56E24D2AB15EC700DDF1EB /* watchos_hello_world_Watch_AppTests.swift */,
+			);
+			path = "watchos-hello-world Watch AppTests";
+			sourceTree = "<group>";
+		};
+		CF56E2562AB15EC700DDF1EB /* watchos-hello-world Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF56E2572AB15EC700DDF1EB /* watchos_hello_world_Watch_AppUITests.swift */,
+				CF56E2592AB15EC700DDF1EB /* watchos_hello_world_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "watchos-hello-world Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF56E2302AB15EC500DDF1EB /* watchos-hello-world */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF56E2612AB15EC700DDF1EB /* Build configuration list for PBXNativeTarget "watchos-hello-world" */;
+			buildPhases = (
+				CF56E22F2AB15EC500DDF1EB /* Resources */,
+				CF56E2602AB15EC700DDF1EB /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF56E23A2AB15EC500DDF1EB /* PBXTargetDependency */,
+			);
+			name = "watchos-hello-world";
+			productName = "watchos-hello-world";
+			productReference = CF56E2312AB15EC500DDF1EB /* watchos-hello-world.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		CF56E2362AB15EC500DDF1EB /* watchos-hello-world Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF56E25D2AB15EC700DDF1EB /* Build configuration list for PBXNativeTarget "watchos-hello-world Watch App" */;
+			buildPhases = (
+				CF56E2332AB15EC500DDF1EB /* Sources */,
+				CF56E2342AB15EC500DDF1EB /* Frameworks */,
+				CF56E2352AB15EC500DDF1EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchos-hello-world Watch App";
+			productName = "watchos-hello-world Watch App";
+			productReference = CF56E2372AB15EC500DDF1EB /* watchos-hello-world Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF56E2482AB15EC700DDF1EB /* watchos-hello-world Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF56E2642AB15EC700DDF1EB /* Build configuration list for PBXNativeTarget "watchos-hello-world Watch AppTests" */;
+			buildPhases = (
+				CF56E2452AB15EC700DDF1EB /* Sources */,
+				CF56E2462AB15EC700DDF1EB /* Frameworks */,
+				CF56E2472AB15EC700DDF1EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF56E24B2AB15EC700DDF1EB /* PBXTargetDependency */,
+			);
+			name = "watchos-hello-world Watch AppTests";
+			productName = "watchos-hello-world Watch AppTests";
+			productReference = CF56E2492AB15EC700DDF1EB /* watchos-hello-world Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF56E2522AB15EC700DDF1EB /* watchos-hello-world Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF56E2672AB15EC700DDF1EB /* Build configuration list for PBXNativeTarget "watchos-hello-world Watch AppUITests" */;
+			buildPhases = (
+				CF56E24F2AB15EC700DDF1EB /* Sources */,
+				CF56E2502AB15EC700DDF1EB /* Frameworks */,
+				CF56E2512AB15EC700DDF1EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF56E2552AB15EC700DDF1EB /* PBXTargetDependency */,
+			);
+			name = "watchos-hello-world Watch AppUITests";
+			productName = "watchos-hello-world Watch AppUITests";
+			productReference = CF56E2532AB15EC700DDF1EB /* watchos-hello-world Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF56E22B2AB15EC500DDF1EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CF56E2302AB15EC500DDF1EB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					CF56E2362AB15EC500DDF1EB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					CF56E2482AB15EC700DDF1EB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CF56E2362AB15EC500DDF1EB;
+					};
+					CF56E2522AB15EC700DDF1EB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CF56E2362AB15EC500DDF1EB;
+					};
+				};
+			};
+			buildConfigurationList = CF56E22E2AB15EC500DDF1EB /* Build configuration list for PBXProject "watchos-hello-world" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF56E22A2AB15EC500DDF1EB;
+			productRefGroup = CF56E2322AB15EC500DDF1EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF56E2302AB15EC500DDF1EB /* watchos-hello-world */,
+				CF56E2362AB15EC500DDF1EB /* watchos-hello-world Watch App */,
+				CF56E2482AB15EC700DDF1EB /* watchos-hello-world Watch AppTests */,
+				CF56E2522AB15EC700DDF1EB /* watchos-hello-world Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF56E22F2AB15EC500DDF1EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF56E2352AB15EC500DDF1EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF56E2442AB15EC700DDF1EB /* Preview Assets.xcassets in Resources */,
+				CF56E2412AB15EC700DDF1EB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF56E2472AB15EC700DDF1EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF56E2512AB15EC700DDF1EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF56E2332AB15EC500DDF1EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF56E23F2AB15EC500DDF1EB /* ContentView.swift in Sources */,
+				CF56E23D2AB15EC500DDF1EB /* watchos_hello_worldApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF56E2452AB15EC700DDF1EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF56E24E2AB15EC700DDF1EB /* watchos_hello_world_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF56E24F2AB15EC700DDF1EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF56E25A2AB15EC700DDF1EB /* watchos_hello_world_Watch_AppUITestsLaunchTests.swift in Sources */,
+				CF56E2582AB15EC700DDF1EB /* watchos_hello_world_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF56E23A2AB15EC500DDF1EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF56E2362AB15EC500DDF1EB /* watchos-hello-world Watch App */;
+			targetProxy = CF56E2392AB15EC500DDF1EB /* PBXContainerItemProxy */;
+		};
+		CF56E24B2AB15EC700DDF1EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF56E2362AB15EC500DDF1EB /* watchos-hello-world Watch App */;
+			targetProxy = CF56E24A2AB15EC700DDF1EB /* PBXContainerItemProxy */;
+		};
+		CF56E2552AB15EC700DDF1EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF56E2362AB15EC500DDF1EB /* watchos-hello-world Watch App */;
+			targetProxy = CF56E2542AB15EC700DDF1EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CF56E25B2AB15EC700DDF1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF56E25C2AB15EC700DDF1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CF56E25E2AB15EC700DDF1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watchos-hello-world Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = V7GP7Z6355;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "watchos-hello-world";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.masao.watchos-hello-world.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		CF56E25F2AB15EC700DDF1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watchos-hello-world Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = V7GP7Z6355;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "watchos-hello-world";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.masao.watchos-hello-world.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		CF56E2622AB15EC700DDF1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7GP7Z6355;
+				INFOPLIST_KEY_CFBundleDisplayName = "watchos-hello-world";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.masao.watchos-hello-world";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CF56E2632AB15EC700DDF1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7GP7Z6355;
+				INFOPLIST_KEY_CFBundleDisplayName = "watchos-hello-world";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.masao.watchos-hello-world";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF56E2652AB15EC700DDF1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7GP7Z6355;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.masao.watchos-hello-world-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchos-hello-world Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/watchos-hello-world Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		CF56E2662AB15EC700DDF1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7GP7Z6355;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.masao.watchos-hello-world-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchos-hello-world Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/watchos-hello-world Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		CF56E2682AB15EC700DDF1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7GP7Z6355;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.masao.watchos-hello-world-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "watchos-hello-world Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		CF56E2692AB15EC700DDF1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7GP7Z6355;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.masao.watchos-hello-world-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "watchos-hello-world Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF56E22E2AB15EC500DDF1EB /* Build configuration list for PBXProject "watchos-hello-world" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF56E25B2AB15EC700DDF1EB /* Debug */,
+				CF56E25C2AB15EC700DDF1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF56E25D2AB15EC700DDF1EB /* Build configuration list for PBXNativeTarget "watchos-hello-world Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF56E25E2AB15EC700DDF1EB /* Debug */,
+				CF56E25F2AB15EC700DDF1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF56E2612AB15EC700DDF1EB /* Build configuration list for PBXNativeTarget "watchos-hello-world" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF56E2622AB15EC700DDF1EB /* Debug */,
+				CF56E2632AB15EC700DDF1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF56E2642AB15EC700DDF1EB /* Build configuration list for PBXNativeTarget "watchos-hello-world Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF56E2652AB15EC700DDF1EB /* Debug */,
+				CF56E2662AB15EC700DDF1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF56E2672AB15EC700DDF1EB /* Build configuration list for PBXNativeTarget "watchos-hello-world Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF56E2682AB15EC700DDF1EB /* Debug */,
+				CF56E2692AB15EC700DDF1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF56E22B2AB15EC500DDF1EB /* Project object */;
+}
