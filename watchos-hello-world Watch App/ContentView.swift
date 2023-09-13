@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Combine
 
 struct Response: Codable {
     var results: [Result]
@@ -20,7 +21,7 @@ struct Result: Codable {
 struct ContentView: View {
     
     @State private var results = [Result]()
-
+    @State private var savedDate: String = ""
     
     var body: some View {
         VStack {
@@ -29,21 +30,44 @@ struct ContentView: View {
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
             
+            Button("Save Data") {
+                saveToiCloud()
+            }
+            
+            Text("Last saved: \(savedDate)")
+            
             List(results, id: \.trackId) { item in
-                      VStack(alignment: .leading) {
-                          Text(item.trackName)
-                              .font(.headline)
-                          Text(item.collectionName)
-                      }
-                  }
+                VStack(alignment: .leading) {
+                    Text(item.trackName)
+                        .font(.headline)
+                    Text(item.collectionName)
+                }
+            }
             .task {
                 await loadData()
             }
         }
         .padding()
     }
-     
     
+    // Save to iCloud example
+    func saveToiCloud() {
+        let cloudStore = NSUbiquitousKeyValueStore.default
+        let currentDate = Date().description
+        cloudStore.set(currentDate, forKey: "sampleData")
+        cloudStore.synchronize()
+        self.savedDate = currentDate
+    }
+    
+    // Load from iCloud example
+    func loadDataFromiCloud() {
+        let cloudStore = NSUbiquitousKeyValueStore.default
+        if let date = cloudStore.string(forKey: "sampleData") {
+            self.savedDate = date
+        }
+    }
+    
+    // Load data from REST API example
     func loadData() async {
         guard let url = URL(string: "https://itunes.apple.com/search?term=taylor+swift&entity=song") else {
             print("Invalid URL")
